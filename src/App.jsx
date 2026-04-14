@@ -19,7 +19,7 @@ function App() {
     <div>
 
       <nav className="nav">
-        <h2 className="logo">My Portfolio</h2>
+        <h2 className="logo">Ems Portfolio</h2>
         <div className="nav-links">
           <a href="#projects">Projects</a>
           <a href="#about">About</a>
