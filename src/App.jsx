@@ -35,16 +35,16 @@ function App() {
 
         <div className="hero-text">
           <h1 className="main-name">Emily O'Brien</h1>
-          <p className="role">Remote Operations & AdministrativeProfessional</p>
+            <p className="role">Frontend Developer & Digital Creative</p>
 
-          <p>
-            I provide high-level administrative and operational support to busy professionals remotely. Organized, proactive, and built for remote work.
-          </p>
+            <p>
+              I build clean, functional websites and I bring something most developers don't — a background that spans legal operations, client systems, AI evaluation, and genuine creative work in photography and design.
+            </p>
 
-          <p>
-            My background spans legal operations, client management, and workflow coordination across fast-paced environments.
-          </p>
-        </div>
+            <p>
+                Self-taught and certificate-trained, I've spent years learning by building. My work lives at the intersection of technical precision and visual instinct — and I work best when I own something completely.
+            </p>
+          </div>
       </section>
 
       <section id="projects" className="section">
@@ -57,10 +57,10 @@ function App() {
             responsiveness, and clean structure.
           </p>
           <div className="project-links">
-            <a href="https://emily-obrien-dev-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://ems-portfolio-88dev.netlify.app/" target="_blank" rel="noopener noreferrer">
               Live
             </a>
-            <a href="https://github.com/EmilyO440/My-Portfolio" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/EmilyO440/Ems-Portfolio" target="_blank" rel="noopener noreferrer">
               Code
             </a>
           </div>
