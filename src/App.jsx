@@ -116,6 +116,14 @@ function App() {
           </div>
         </div>
 
+        <div className="card">
+          <h3>AI Trends — In Development</h3>
+          <p>
+            An interactive data visualization exploring the growth of AI adoption
+            across industries over the past decade. Built with React and Recharts.
+          </p>
+        </div>
+
       </section>
 
       <section id="about" className="section">
@@ -145,8 +153,9 @@ function App() {
         </p>
 
         <p>
-          I'm especially interested in opportunities where development, design, and user
-          experience overlap, and where I can continue growing as both a developer and a creative.
+          I'm especially interested in remote and international opportunities where
+          development, design, and user experience overlap, and where I can continue
+          growing as both a developer and a creative.
         </p>
       </section>
 
@@ -172,6 +181,11 @@ function App() {
           <div className="skill-box">
             <h3>Data & Visualization</h3>
             <p>Data Visualization, Interactive Dashboards, Recharts, Chart Design</p>
+          </div>
+
+          <div className="skill-box">
+            <h3>AI & Workflow</h3>
+            <p>AI Prompt Engineering, AI-Assisted Development, Content Evaluation, Data Annotation</p>
           </div>
 
           <div className="skill-box">
@@ -260,11 +274,11 @@ function App() {
 
       <section id="contact" className="section">
         <h2>Contact</h2>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/emily-o-943809402/" target="_blank" rel="neoopener noreferrer">www.linkedin.com/in/emily-o-943809402</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/emily-o-943809402/" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/emily-o-943809402</a></p>
         <p>Email: emilyobrien64728@yahoo.com</p>
         <p>GitHub: <a href="https://github.com/EmilyO440" target="_blank" rel="noopener noreferrer">github.com/EmilyO440</a></p>
-        <p>Portfolio: <a href="https://ems-portfolio-88dev.netlify.app/" target="_blank" rel="noopener noreferrer">ems-portfolio-88dev.netfly.app</a></p>
-        <p>Open to remote contract, and international opportunities</p>
+        <p>Portfolio: <a href="https://ems-portfolio-88dev.netlify.app/" target="_blank" rel="noopener noreferrer">ems-portfolio-88dev.netlify.app</a></p>
+        <p>Open to remote contract and international opportunities</p>
       </section>
 
     </div>
