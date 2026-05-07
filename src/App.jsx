@@ -186,13 +186,21 @@ function App() {
       <section id="experience" className="section">
         <h2>Experience</h2>
 
-        <div className="card">
-          <h3>AI Content Evaluator — TELUS Digital</h3>
-          <p>2026 – Present · Remote</p>
+         <div className="card">
+          <h3>Creative Work & Visual Storytelling</h3>
           <p>
-            Assessing digital content and search results for quality, relevance, and
-            user value. Contributing to AI model training through clear content
-            evaluations and structured justifications.
+            Documentary and travel photography across Europe — Germany, Netherlands, UK,
+            and beyond. Strong compositional eye applied directly to UI design and layout decisions.
+          </p>
+        </div>
+
+        <div className="card">
+          <h3>Web Development & UI Design</h3>
+          <p>
+            Designed and built responsive web applications using React, Vue 3, HTML, CSS,
+            JavaScript, and Vite. Projects include a workshop discovery platform, an
+            interactive data dashboard, a task management app, and a narrative-driven
+            storytelling site.
           </p>
         </div>
 
@@ -228,23 +236,6 @@ function App() {
           </p>
         </div>
 
-        <div className="card">
-          <h3>Web Development & UI Design</h3>
-          <p>
-            Designed and built responsive web applications using React, Vue 3, HTML, CSS,
-            JavaScript, and Vite. Projects include a workshop discovery platform, an
-            interactive data dashboard, a task management app, and a narrative-driven
-            storytelling site.
-          </p>
-        </div>
-
-        <div className="card">
-          <h3>Creative Work & Visual Storytelling</h3>
-          <p>
-            Documentary and travel photography across Europe — Germany, Netherlands, UK,
-            and beyond. Strong compositional eye applied directly to UI design and layout decisions.
-          </p>
-        </div>
 
       </section>
 
@@ -269,7 +260,7 @@ function App() {
       <section id="contact" className="section">
         <h2>Contact</h2>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/emily-o-943809402/" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/emily-o-943809402</a></p>
-        <p>Email: emilyobrien64728@yahoo.com</p>
+        <p>Email: emilyobrien64728@yahoo.com OR emilyobrien64728@gmail.com</p>
         <p>GitHub: <a href="https://github.com/EmilyO440" target="_blank" rel="noopener noreferrer">github.com/EmilyO440</a></p>
         <p>Portfolio: <a href="https://ems-portfolio-88dev.netlify.app/" target="_blank" rel="noopener noreferrer">ems-portfolio-88dev.netlify.app</a></p>
         <p>Based in Düsseldorf, Germany · Open to remote and on-site opportunities</p>
