@@ -32,69 +32,31 @@ function App() {
 
       <section className="hero">
         <img src={hibiscus} className="hero-img" />
-
         <div className="hero-text">
           <h1 className="main-name">Emily O'Brien</h1>
-            <p className="role">Frontend Developer & Digital Creative</p>
-
-            <p>
-              I build clean, functional websites and I bring something most developers don't — a background that spans legal operations, client systems, AI evaluation, and genuine creative work in photography and design.
-            </p>
-
-            <p>
-                Self-taught and certificate-trained, I've spent years learning by building. My work lives at the intersection of technical precision and visual instinct — and I work best when I own something completely.
-            </p>
-          </div>
+          <p className="role">Frontend Developer · Digital Creative · Based in Düsseldorf, Germany</p>
+          <p>
+            I build clean, functional websites and bring something most developers don't — a background spanning legal operations, client systems, AI evaluation, genealogical research, and genuine creative work in photography and design.
+          </p>
+          <p>
+            Self-taught and certificate-trained, I've spent years learning by building. My work lives at the intersection of technical precision and visual instinct. Currently based in Düsseldorf and actively seeking opportunities in the German tech sector.
+          </p>
+        </div>
       </section>
 
       <section id="projects" className="section">
         <h2>Projects</h2>
 
         <div className="card">
-          <h3>Personal Portfolio</h3>
+          <h3>konfetti Workshop Discovery</h3>
           <p>
-            Built with React and custom CSS. Focused on layout,
-            responsiveness, and clean structure.
+            A workshop booking and discovery platform built with Vue 3 and Vite.
+            Features live search, category filtering, a booking modal, and
+            confirmation flow — inspired by konfetti's real-world event platform.
           </p>
           <div className="project-links">
-            <a href="https://ems-portfolio-88dev.netlify.app/" target="_blank" rel="noopener noreferrer">
-              Live
-            </a>
-            <a href="https://github.com/EmilyO440/Ems-Portfolio" target="_blank" rel="noopener noreferrer">
-              Code
-            </a>
-          </div>
-        </div>
-
-        <div className="card">
-          <h3>TaskFlow</h3>
-          <p>
-            A responsive task management app featuring priority levels,
-            deadlines, and real-time progress tracking.
-          </p>
-          <div className="project-links">
-            <a href="https://my-taskflow-manager-app.netlify.app/" target="_blank" rel="noopener noreferrer">
-              Live
-            </a>
-            <a href="https://github.com/EmilyO440/TaskFlow-App" target="_blank" rel="noopener noreferrer">
-              Code
-            </a>
-          </div>
-        </div>
-
-        <div className="card">
-          <h3>Quiet Observations</h3>
-          <p>
-            An immersive, narrative-driven web experience that blends creative writing
-            with visual storytelling, focusing on perception, stillness, and atmosphere.
-          </p>
-          <div className="project-links">
-            <a href="https://quiet-observations.netlify.app/" target="_blank" rel="noopener noreferrer">
-              Live
-            </a>
-            <a href="https://github.com/EmilyO440/Quiet-Observations" target="_blank" rel="noopener noreferrer">
-              Code
-            </a>
+            <a href="https://konfetti-workshops.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+            <a href="https://github.com/EmilyO440/konfetti-workshops" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
         </div>
 
@@ -107,12 +69,44 @@ function App() {
             Built with React, Vite, and Recharts.
           </p>
           <div className="project-links">
-            <a href="https://world-social.netlify.app/" target="_blank" rel="noopener noreferrer">
-              Live
-            </a>
-            <a href="https://github.com/EmilyO440/world-social" target="_blank" rel="noopener noreferrer">
-              Code
-            </a>
+            <a href="https://world-social.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+            <a href="https://github.com/EmilyO440/world-social" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+        </div>
+
+        <div className="card">
+          <h3>TaskFlow</h3>
+          <p>
+            A responsive task management app featuring priority levels,
+            deadlines, and real-time progress tracking.
+          </p>
+          <div className="project-links">
+            <a href="https://my-taskflow-manager-app.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+            <a href="https://github.com/EmilyO440/TaskFlow-App" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+        </div>
+
+        <div className="card">
+          <h3>Quiet Observations</h3>
+          <p>
+            An immersive, narrative-driven web experience blending creative writing
+            with visual storytelling, focusing on perception, stillness, and atmosphere.
+          </p>
+          <div className="project-links">
+            <a href="https://quiet-observations.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+            <a href="https://github.com/EmilyO440/Quiet-Observations" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+        </div>
+
+        <div className="card">
+          <h3>Personal Portfolio</h3>
+          <p>
+            Built with React and custom CSS. Focused on layout,
+            responsiveness, and clean structure.
+          </p>
+          <div className="project-links">
+            <a href="https://ems-portfolio-88dev.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+            <a href="https://github.com/EmilyO440/Ems-Portfolio" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
         </div>
 
@@ -128,54 +122,47 @@ function App() {
 
       <section id="about" className="section">
         <h2>About Me</h2>
-
         <p>
-          I'm a frontend developer and digital creative with a strong focus on
-          user experience, visual design, and building interfaces that feel intentional.
+          I'm a frontend developer and digital creative currently based in Düsseldorf, Germany, actively seeking opportunities in the German tech sector. I build interfaces that feel intentional — technically precise and visually considered.
         </p>
-
         <p>
-          My background combines technical work with creative disciplines like photography
-          and design, which shapes how I approach building. I don't just focus on
-          functionality - I pay attention to how something feels, how it flows, and how
-          users naturally move through it.
+          My background is broader than most developers: I've worked in legal operations, insurance client management, AI content evaluation, and I have 5+ years of independent genealogical research experience tracing family histories across U.S. records using Ancestry.com, FamilySearch, DNA analysis, and archival sources. That research instinct — finding patterns, following threads, documenting findings clearly — carries directly into how I approach development.
         </p>
-
         <p>
-          I've worked in fast-paced, customer-facing environments where communication,
-          adaptability, and problem solving were essential. That experience carries into
-          my development work, where I prioritize clarity, usability, and real-world practicality.
+          I've worked in fast-paced, customer-facing environments where communication, adaptability, and problem solving were essential. I prioritize clarity, usability, and real-world practicality in everything I build.
         </p>
-
         <p>
-          I'm currently focused on building projects that reflect both technical ability
-          and perspective - from structured applications to more immersive, narrative-driven experiences.
-        </p>
-
-        <p>
-          I'm especially interested in remote and international opportunities where
-          development, design, and user experience overlap, and where I can continue
-          growing as both a developer and a creative.
+          I'm currently enrolled in intensive German language courses in Düsseldorf (A2 level, working toward B1/B2) and am committed to building a long-term career in Germany. I'm especially interested in remote and international opportunities where development, design, and user experience overlap.
         </p>
       </section>
 
       <section id="skills" className="section">
         <h2>Skills</h2>
-
         <div className="skills-grid">
+
           <div className="skill-box">
             <h3>Frontend</h3>
-            <p>HTML, CSS, JavaScript, React, Vite</p>
+            <p>HTML, CSS, JavaScript, React, Vue 3, Vite, TypeScript, Bootstrap</p>
           </div>
 
           <div className="skill-box">
             <h3>Design & UI</h3>
-            <p>Responsive Design, Layout, Visual Hierarchy, Application UI Design</p>
+            <p>Responsive Design, Layout, Visual Hierarchy, Figma, Adobe Creative Suite, Canva</p>
           </div>
 
           <div className="skill-box">
             <h3>Tools</h3>
-            <p>Git, GitHub, VS Code, Adobe, Slack, Recharts</p>
+            <p>Git, GitHub, VS Code, Recharts, Node.js, RESTful APIs</p>
+          </div>
+
+          <div className="skill-box">
+            <h3>AI & Workflow</h3>
+            <p>AI Prompt Engineering, AI-Assisted Development, GitHub Copilot, Claude API, Content Evaluation</p>
+          </div>
+
+          <div className="skill-box">
+            <h3>Research</h3>
+            <p>Genealogical Research, Ancestry.com, FamilySearch, DNA Analysis, Archival Records, Documentation</p>
           </div>
 
           <div className="skill-box">
@@ -184,19 +171,15 @@ function App() {
           </div>
 
           <div className="skill-box">
-            <h3>AI & Workflow</h3>
-            <p>AI Prompt Engineering, AI-Assisted Development, Content Evaluation, Data Annotation</p>
-          </div>
-
-          <div className="skill-box">
-            <h3>Strengths</h3>
-            <p>Communication, Organization, Problem Solving, Attention to Detail</p>
+            <h3>Languages</h3>
+            <p>English (native) · German (A2, actively studying — intensive courses in Düsseldorf)</p>
           </div>
 
           <div className="skill-box">
             <h3>Creative</h3>
             <p>Photography, Visual Thinking, UI/UX Design, Storytelling</p>
           </div>
+
         </div>
       </section>
 
@@ -204,12 +187,24 @@ function App() {
         <h2>Experience</h2>
 
         <div className="card">
-          <h3>AI Rater & Data Annotator — TELUS Digital</h3>
-          <p>2026 – Present</p>
+          <h3>AI Content Evaluator — TELUS Digital</h3>
+          <p>2026 – Present · Remote</p>
           <p>
             Assessing digital content and search results for quality, relevance, and
             user value. Contributing to AI model training through clear content
             evaluations and structured justifications.
+          </p>
+        </div>
+
+        <div className="card">
+          <h3>Independent Genealogical Researcher</h3>
+          <p>2019 – Present</p>
+          <p>
+            Conducted in-depth genealogical research for personal clients, family members,
+            and independent projects with a focus on U.S. Mid-South and Southern states.
+            Utilized Ancestry.com, FamilySearch, census records, vital records, military
+            records, and DNA analysis. Produced detailed research logs, source citations,
+            and narrative reports aligned with genealogical proof standards.
           </p>
         </div>
 
@@ -236,18 +231,18 @@ function App() {
         <div className="card">
           <h3>Web Development & UI Design</h3>
           <p>
-            Designed and built responsive web applications using React, HTML, CSS,
-            JavaScript, and Vite. Projects include an interactive data dashboard,
-            a task management application, and a narrative-driven storytelling site.
+            Designed and built responsive web applications using React, Vue 3, HTML, CSS,
+            JavaScript, and Vite. Projects include a workshop discovery platform, an
+            interactive data dashboard, a task management app, and a narrative-driven
+            storytelling site.
           </p>
         </div>
 
         <div className="card">
           <h3>Creative Work & Visual Storytelling</h3>
           <p>
-            Background in photography and writing with a strong focus on observation,
-            composition, and capturing subtle details. This perspective directly
-            influences my approach to design and user interfaces.
+            Documentary and travel photography across Europe — Germany, Netherlands, UK,
+            and beyond. Strong compositional eye applied directly to UI design and layout decisions.
           </p>
         </div>
 
@@ -255,7 +250,6 @@ function App() {
 
       <section id="creative" className="section">
         <h2>Photography</h2>
-
         <div className="gallery">
           <img src={amsterdamRoof} />
           <img src={motions} />
@@ -278,7 +272,7 @@ function App() {
         <p>Email: emilyobrien64728@yahoo.com</p>
         <p>GitHub: <a href="https://github.com/EmilyO440" target="_blank" rel="noopener noreferrer">github.com/EmilyO440</a></p>
         <p>Portfolio: <a href="https://ems-portfolio-88dev.netlify.app/" target="_blank" rel="noopener noreferrer">ems-portfolio-88dev.netlify.app</a></p>
-        <p>Open to remote contract and international opportunities</p>
+        <p>Based in Düsseldorf, Germany · Open to remote and on-site opportunities</p>
       </section>
 
     </div>
